@@ -1,4 +1,4 @@
-# Encoded By : ANOX
+# Encoded By : MAHADI HASAN AFRIDI
 # Encryption : Py3 Marshal
 # Py3 Version : 3.11
 
